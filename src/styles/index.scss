@@ -1,0 +1,16 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600;700&family=Merriweather:wght@300&family=Montserrat:wght@300;500&family=Raleway:wght@700&family=Rubik:wght@300;400&display=swap');
+
+*,*::after,*::before{
+   box-sizing: border-box;
+}
+body{
+   position: relative;
+   font-family: 'Montserrat', sans-serif; 
+  
+}
+.container{
+   margin: 0 auto;
+   max-width: 1200px;
+   padding-top: 20px;
+}

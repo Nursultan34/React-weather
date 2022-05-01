@@ -1,0 +1,38 @@
+    @import '../../../../styles/varible.scss';
+
+    .ThisDay{
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    background: $light-background;
+    box-shadow: $box-shadow;
+    border-radius: $border-radius;
+    }
+    .topblock{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+        svg{
+            width: 119px;
+            height: 119px;
+        }
+        .thistamp{
+            font-size: 96px;
+            font-weight: 500;
+            color: $primary-color;
+        }
+        .thisday{
+            font-size: 40px;
+            color: var(#{--text-color-default});
+        }
+    }
+
+    .bottomblock{
+        .thistime,
+        .thiscity{
+            color: $base-color;
+            font-size: 25px;
+        }
+    }
